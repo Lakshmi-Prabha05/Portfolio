@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and Credentials
+.env
+.env.local
+*.env
+
+# Dependencies & Build Artefacts
+node_modules/
+dist/
+build/
+*.log
+
+# Editor Settings
+.vscode/
+.idea/

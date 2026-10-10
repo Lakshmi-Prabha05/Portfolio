@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshmi Prabha Alagasamy | Software Developer</title>
+  <meta name="description" content="Personal portfolio of Lakshmi Prabha Alagasamy - Computer Science Engineering Graduate & Software Developer." />
+  <meta name="author" content="Lakshmi Prabha Alagasamy" />
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Lakshmi Prabha Homepage">
+        Lakshmi Prabha
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon theme-icon-moon"></i>
+          <i class="fa-solid fa-sun theme-icon-sun"></i>
+        </button>
+
+        <a href="assets/Lakshmi_Prabha_Resume.pdf" target="_blank" class="btn btn-primary btn-sm desktop-only">
+          Resume
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="hamburger-btn mobile-only" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-drawer" class="mobile-drawer">
+    <div class="drawer-header">
+      <span class="drawer-logo">Lakshmi Prabha</span>
+      <button id="drawer-close" class="icon-btn" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="drawer-links">
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#education" class="drawer-link">Education</a>
+      <a href="#certifications" class="drawer-link">Certifications</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+    </div>
+    <div class="drawer-actions">
+      <a href="assets/Lakshmi_Prabha_Resume.pdf" target="_blank" class="btn btn-primary w-100">
+        View Resume
+      </a>
+    </div>
+  </div>
+  <div id="drawer-backdrop" class="drawer-backdrop"></div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="availability-badge">Available for Software Developer roles</span>
+
+          <h1 class="hero-name">Lakshmi Prabha Alagasamy</h1>
+          <p class="hero-title">Software Developer | Computer Science Engineering Graduate</p>
+
+          <p class="hero-intro">
+            I am a Computer Science Engineering graduate with experience in software development, 
+            relational databases, and web applications. Experienced in developing front-end interfaces with 
+            React.js and JavaScript, building REST APIs with Node.js and TypeScript, and working with Oracle SQL 
+            and ERP application systems.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="assets/Lakshmi_Prabha_Resume.pdf" target="_blank" class="btn btn-secondary">View Resume</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-social-links">
+            <a href="https://github.com/Lakshmi-Prabha05" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/lakshmi-prabha-a-585b00261" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:lakshmiprabhaa166@gmail.com" class="social-link" title="Email">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+          <p>
+            I am a Computer Science Engineering graduate from Jai Shriram Engineering College with an interest in software development, web applications, and database management. I have practical experience working with SQL, Node.js, TypeScript, REST APIs, and React.js through my work experience, internship, and projects. I enjoy learning new technologies and building useful applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="section bg-light">
+      <div class="container">
+        <h2 class="section-heading">Technical Skills</h2>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-group-card">
+            <h3 class="skill-group-title">Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-group-card">
+            <h3 class="skill-group-title">Frontend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">React.js</span>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-group-card">
+            <h3 class="skill-group-title">Backend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">REST API Integration</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-group-card">
+            <h3 class="skill-group-title">Database</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Oracle SQL</span>
+              <span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-group-card">
+            <h3 class="skill-group-title">Tools</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">PyTorch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-heading">Professional Experience</h2>
+
+        <div class="experience-list">
+          <!-- Experience 1: Sri Kumaran Softwares -->
+          <div class="experience-card">
+            <div class="experience-card-header">
+              <div>
+                <h3 class="experience-role">SQL Developer Intern</h3>
+                <div class="experience-company">Sri Kumaran Softwares &bull; Tirupur, India</div>
+              </div>
+              <div class="experience-date">Mar 2026 – Aug 2026</div>
+            </div>
+            <ul class="experience-bullets">
+              <li>Working with Oracle SQL and ERP application functionality.</li>
+              <li>Working with REST APIs, Node.js, and TypeScript.</li>
+              <li>Supporting application features, database operations, and troubleshooting.</li>
+            </ul>
+          </div>
+
+          <!-- Experience 2: SparkOut Tech Solutions -->
+          <div class="experience-card">
+            <div class="experience-card-header">
+              <div>
+                <h3 class="experience-role">Web Development Intern</h3>
+                <div class="experience-company">SparkOut Tech Solutions &bull; Coimbatore, India</div>
+              </div>
+              <div class="experience-date">22 December 2025 – 21 January 2026</div>
+            </div>
+            <ul class="experience-bullets">
+              <li>Developing responsive web interfaces.</li>
+              <li>Working with HTML, CSS, JavaScript, and React.js where applicable.</li>
+              <li>Learning web application development and API integration.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section bg-light">
+      <div class="container">
+        <h2 class="section-heading">Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1: Pancreas Segmentation -->
+          <div class="project-card">
+            <div class="project-card-body">
+              <h3 class="project-name">Deep Learning-Based Pancreas Segmentation Using Real and Synthetic CT Scan Data</h3>
+              <p class="project-desc">
+                A PyTorch-based U-Net project for pancreas segmentation from CT scan images.
+              </p>
+              <div class="project-tech-line">
+                <strong>Technologies:</strong> Python, PyTorch, U-Net, Flask, Medical Image Processing
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary btn-sm" onclick="openProjectModal('pancreas-segmentation')">
+                Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2: LeaveEase -->
+          <div class="project-card">
+            <div class="project-card-body">
+              <h3 class="project-name">LeaveEase – Leave Management System</h3>
+              <p class="project-desc">
+                A web application for managing leave requests and viewing approval statuses.
+              </p>
+              <div class="project-tech-line">
+                <strong>Technologies:</strong> React.js, Java, Node.js, MySQL, HTML, CSS
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary btn-sm" onclick="openProjectModal('leave-ease')">
+                Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 3: Sign2Text -->
+          <div class="project-card">
+            <div class="project-card-body">
+              <h3 class="project-name">Sign2Text – Sign Language Translator</h3>
+              <p class="project-desc">
+                A machine learning-based project that converts recognized sign language gestures into text, with speech output where implemented.
+              </p>
+              <div class="project-tech-line">
+                <strong>Technologies:</strong> Python, Flask, Machine Learning, HTML, CSS, JavaScript
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <button class="btn btn-secondary btn-sm" onclick="openProjectModal('sign2text')">
+                Project Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-heading">Education</h2>
+
+        <div class="education-list">
+          <!-- Entry 1 -->
+          <div class="education-card">
+            <h3 class="education-degree">B.E. Computer Science and Engineering</h3>
+            <div class="education-school">Jai Shriram Engineering College</div>
+            <div class="education-result">Result: CGPA 8.56/10</div>
+          </div>
+
+          <!-- Entry 2 -->
+          <div class="education-card">
+            <h3 class="education-degree">Higher Secondary Certificate (HSC)</h3>
+            <div class="education-school">Palaniyammal Girls Higher Secondary School</div>
+            <div class="education-group">Group: Biology &amp; Mathematics</div>
+            <div class="education-result">Result: 79.5%</div>
+          </div>
+
+          <!-- Entry 3 -->
+          <div class="education-card">
+            <h3 class="education-degree">Secondary School Leaving Certificate (SSLC)</h3>
+            <div class="education-school">Shri Valli Vidyalaya Matriculation School</div>
+            <div class="education-group">Curriculum: General Academic Curriculum</div>
+            <div class="education-result">Result: 91%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & WORKSHOPS SECTION -->
+    <section id="certifications" class="section bg-light">
+      <div class="container">
+        <h2 class="section-heading">Certifications &amp; Workshops</h2>
+
+        <div class="certifications-list">
+          <div class="cert-item">
+            <h3 class="cert-name">Cloud Computing</h3>
+            <div class="cert-provider">NPTEL &bull; Elite + Silver</div>
+          </div>
+
+          <div class="cert-item">
+            <h3 class="cert-name">Gen AI Study Jams 2024</h3>
+            <div class="cert-provider">Google Developer Groups (GDG)</div>
+          </div>
+
+          <div class="cert-item">
+            <h3 class="cert-name">Google Cloud Study Jams 2023</h3>
+            <div class="cert-provider">Google Developer Student Clubs (GDSC)</div>
+          </div>
+
+          <div class="cert-item">
+            <h3 class="cert-name">React.js Workshop (5 Days)</h3>
+            <div class="cert-provider">Altalya Solutions</div>
+          </div>
+
+          <div class="cert-item">
+            <h3 class="cert-name">Web Development Workshop (3 Days)</h3>
+            <div class="cert-provider">Altalya Solutions</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-heading">Contact</h2>
+        <p class="contact-intro">
+          Feel free to reach out for software development opportunities or inquiries.
+        </p>
+
+        <div class="contact-details-grid">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <div>
+              <div class="contact-label">Email</div>
+              <a href="mailto:lakshmiprabhaa166@gmail.com" class="contact-link">lakshmiprabhaa166@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-phone contact-icon"></i>
+            <div>
+              <div class="contact-label">Phone</div>
+              <a href="tel:+917845574854" class="contact-link">+91 78455 74854</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot contact-icon"></i>
+            <div>
+              <div class="contact-label">Location</div>
+              <span class="contact-text">Tirupur, Tamil Nadu, India</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-brands fa-linkedin contact-icon"></i>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <a href="https://linkedin.com/in/lakshmi-prabha-a-585b00261" target="_blank" rel="noopener noreferrer" class="contact-link">
+                linkedin.com/in/lakshmi-prabha-a-585b00261
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-brands fa-github contact-icon"></i>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <a href="https://github.com/Lakshmi-Prabha05" target="_blank" rel="noopener noreferrer" class="contact-link">
+                github.com/Lakshmi-Prabha05
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Lakshmi Prabha Alagasamy. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT DETAIL MODAL ==================== -->
+  <div id="project-modal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="project-modal-title" class="modal-title">Project Details</h3>
+        <button class="modal-close-btn" onclick="closeProjectModal()" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="project-modal-body" class="modal-body">
+        <!-- Injected via script.js -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" onclick="closeProjectModal()">Close</button>
+      </div>
+    </div>
+    <div class="modal-backdrop" onclick="closeProjectModal()"></div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
